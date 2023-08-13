@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head th:replace="~{fragments/layout.html :: head}"></head>
+<body>
+<header th:replace="~{fragments/layout.html :: header}"></header>
+
+<article>
+    <div id="centrovac" class="domu-article">
+        <header>
+            <h1>O mně</h1>
+        </header>
+
+        <section>
+            <p>
+                Vítejte na mé zkušební aplikaci. Webové aplikace se teprve učím, ale myslím, že
+                jsem na dobré cestě.
+            </p>
+            <p>
+                Jmenuji se Jakub Toman, přezdívkou Kouba a je mi 27 let. Programovat webové aplikace
+                jsem se rozhodl před rokem. Kontaktovat mě můžete na
+                <a th:href="@{/contact}">kontaktní stránce</a>.
+            </p>
+            <p>Rád zkoumám jak funguji věci uvnitř. Moje koníčky jso in-line brusle, snowboard nebo
+            požární sport. Když není pěkné počasí a nechce se mi sedět u programu Java, renovuji si motorky značky Jawa.</p>
+
+            <p class="tlacitko-odstavec">
+                <a th:href="@{/references}" class="reference-tlacitko">Moje reference</a>
+            </p>
+        </section>
+
+        <img th:src="@{/images/avatar.jpg}" alt="To jsem já."/>
+    </div>
+</article>
+
+<footer th:replace="~{fragments/layout.html :: footer}"></footer>
+</body>
+</html>

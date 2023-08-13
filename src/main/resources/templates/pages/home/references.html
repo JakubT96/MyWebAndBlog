@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head th:replace="~{fragments/layout.html :: head}"></head>
+<body>
+
+</body>
+<header th:replace="~{fragments/layout.html :: header}"></header>
+
+<article>
+  <div id="centrovac">
+    <section>
+      <p> Zde se budu snažit vkládat ukázky projektů, které jsem vytvořil.</p>
+
+      <div id="reference">
+        <a th:href="@{/images/kalkulacka_java.png}" title="Kalkulačka v Javě" rel="lightbox[reference]">
+          <img th:src="@{/images/kalkulacka_java_nahled.png}" alt="Kalkulačka v Javě"/>
+        </a>
+        </a>
+      </div>
+    </section>
+  </div>
+</article>
+
+<footer th:replace="~{fragments/layout.html :: footer}"></footer>
+</html>

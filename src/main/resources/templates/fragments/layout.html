@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head th:fragment="head">
+
+  <meta charset="utf-8"/>
+  <meta name="description" content="Zkouším SpringBoot."/>
+  <meta name="keywords" content="Portfolie"/>
+  <meta name="author" content="Jakub Toman"/>
+  <title>Moje první webová stránka</title>
+
+  <link rel="stylesheet" th:href="@{/styles/lightbox.min.css}" type="text/css"/>
+  <link rel="stylesheet" th:href="@{/styles/bootstrap.min.css}" type="text/css"/>
+  <link rel="stylesheet" th:href="@{/styles/styles.css}" type="text/css"/>
+  <link rel="shortcut icon" th:href="@{/images/ikona.ico}"/>
+
+  <script th:src="@{/scripts/lightbox-plus-jquery.min.js}"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.0.3/tinymce.min.js"></script> -->
+  <script>
+    tinymce.init({
+        selector: "textarea[id*=content]",
+        entities: "160,nbsp",
+        entity_encoding: "named",
+        entity_encoding: "raw"
+    });
+  </script>
+</head>
+<body>
+<header th:fragment="header">
+  <nav>
+    <ul>
+      <li><div id="logo">
+        <h1><span>Jakub Toman</span></h1>
+        <small> . . . co se učí Java </small>
+      </div> </li>
+      <li><a class="home" th:href="@{/}">Domů</a></li>
+      <li><a class="articles" th:href="@{/articles}">Články</a></li>
+      <li><a class="skills" th:href="@{skills}">Dovednosti</a></li>
+      <li><a class="reference" th:href="@{/references}">Reference</a></li>
+      <li><a class="kontakt-tlacitko" th:href="@{contact}">Kontakt</a></li>
+      <li sec:authorize="isAnonymous()"><a class="login" th:href="@{/account/login}">Přihlásit se</a></li>
+      <li sec:authorize="isAnonymous()"><a  class="register" th:href="@{/account/register}">Registrovat</a></li>
+      <li>
+        <form method="post" th:action="@{/account/logout}">
+          <button class="btn text-white" sec:authorize="isAuthenticated()">Odhlásit se</button>
+        </form>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<footer th:fragemnt="footer">
+  Vytvořil &copy; Kouba jako vyzkoušení Spring Boot, HTML, CSS atd..</a>
+</footer>
+</body>
+</html>

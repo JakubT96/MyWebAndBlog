@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+<head th:replace="~{fragments/layout.html :: head}"></head>
+<body>
+
+</body>
+<header th:replace="~{fragments/layout.html :: header}"></header>
+
+<article>
+  <div id="centrovac">
+    <section>
+      <table id="dovednosti">
+        <tr class="centrovany">
+          <td>
+            <img th:src="@{/images/html.png}" alt="HTML" width="70" height="70"/>
+          </td>
+          <td>
+            <img th:src="@{/images/java.png}" alt="Java" width="90" height="75"/>
+          </td>
+          <td>
+            <img th:src="@{/images/springboot.png}" alt="SpringBoot" width="95" height="80"/>
+          </td>
+          <td>
+            <img th:src="@{/images/CSS.png}" alt="css" width="70" height="70"/>
+          </td>
+          <td>
+            <img th:src="@{/images/GITHUB.png}" alt="git" width="70" height="70"/>
+          </td>
+          <td>
+            <img th:src="@{/images/SQL.png}" alt="MySql" width="70" height="70"/>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h2>HTML</h2>
+            <p>S HTML začínám a umím vytvořit jednoduché webové stránky, jako jsou tyto.</p>
+          </td>
+          <td>
+            <h2>Java</h2>
+            <p>Javu se učím z ITNETWORK. Dokáži tvořit jednoduché konzolové aplikace
+              a
+              programovat objektově.</p>
+          </td>
+          <td>
+            <h2>Spring Boot</h2>
+            <p>Spring Boot je aktuálně pro mě velké téma!</p>
+          </td>
+          <td>
+            <h2>CSS</h2>
+            <p>Zde ještě musím přidat popis!</p>
+          </td>
+          <td>
+            <h2>GitHub</h2>
+            <p>Github má pěknou ikonu</p>
+          </td>
+          <td>
+            <h2>MySQL</h2>
+            <p> Jsou i další databáze že? </p>
+          </td>
+        </tr>
+      </table>
+    </section>
+  </div>
+</article>
+
+<footer th:replace="~{fragments/layout.html :: footer}"></footer>
+</html>
