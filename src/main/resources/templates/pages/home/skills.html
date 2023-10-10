@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+<!DOCTYPE html>  <!--Napsat jaké základy ovládám atd... -->
 <html lang="cs-cz">
 <head th:replace="~{fragments/layout.html :: head}"></head>
 <body>
 
 </body>
 <header th:replace="~{fragments/layout.html :: header}"></header>
-
+<!--Dodělat, že se věnuji práci se sítí a soubory v jave, postupně i nerelační databáze. -->
 <article>
   <div id="centrovac">
     <section>
@@ -15,49 +15,56 @@
             <img th:src="@{/images/html.png}" alt="HTML" width="70" height="70"/>
           </td>
           <td>
-            <img th:src="@{/images/java.png}" alt="Java" width="90" height="75"/>
-          </td>
-          <td>
-            <img th:src="@{/images/springboot.png}" alt="SpringBoot" width="95" height="80"/>
-          </td>
-          <td>
-            <img th:src="@{/images/CSS.png}" alt="css" width="70" height="70"/>
-          </td>
-          <td>
-            <img th:src="@{/images/GITHUB.png}" alt="git" width="70" height="70"/>
-          </td>
-          <td>
-            <img th:src="@{/images/SQL.png}" alt="MySql" width="70" height="70"/>
+            <h2>HTML</h2>
+            <p>S HTML začínám a umím vytvořit jednoduché webové stránky, jako jsou tyto. Dle mého názoru je HTML
+            základ pro každého kdo chce programovat.</p>
           </td>
         </tr>
         <tr>
           <td>
-            <h2>HTML</h2>
-            <p>S HTML začínám a umím vytvořit jednoduché webové stránky, jako jsou tyto.</p>
+            <img th:src="@{/images/java.png}" alt="Java" width="90" height="75"/>
           </td>
           <td>
             <h2>Java</h2>
             <p>Javu se učím z ITNETWORK. Dokáži tvořit jednoduché konzolové aplikace
-              a
-              programovat objektově.</p>
+              a programovat objektově.</p>
           </td>
+        </tr>
+        <tr>
+        <td>
+            <img th:src="@{/images/springboot.png}" alt="SpringBoot" width="95" height="80"/>
+        </td>
           <td>
             <h2>Spring Boot</h2>
-            <p>Spring Boot je aktuálně pro mě velké téma!</p>
+            <p>Spring Boot je aktuálně pro mě velké téma! Začátky byly trochu náročné ale zvládl jsem to!</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img th:src="@{/images/CSS.png}" alt="css" width="70" height="70"/>
           </td>
           <td>
             <h2>CSS</h2>
-            <p>Zde ještě musím přidat popis!</p>
+            <p>CSS má mnoho možností. Další součást povinné výbavy každého začátečníka ve světě programu.</p>
+          </td>
+        </tr>
+        <tr>
+        <td>
+            <img th:src="@{/images/GITHUB.png}" alt="git" width="70" height="70"/>
           </td>
           <td>
             <h2>GitHub</h2>
-            <p>Github má pěknou ikonu</p>
+            <p>Github má pěknou ikonu. </p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img th:src="@{/images/SQL.png}" alt="MySql" width="70" height="70"/>
           </td>
           <td>
             <h2>MySQL</h2>
-            <p> Jsou i další databáze že? </p>
-          </td>
-        </tr>
+            <p> Jsou samozřejmě i další databáze že? Nicméně já jsem si vybral MySQL. Někde začít musím. </p>
+          </td></tr>
       </table>
     </section>
   </div>

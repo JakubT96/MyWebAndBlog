@@ -1,6 +1,5 @@
 package JakubT96;
 
-import JakubT96.springblog.SeleniumTesting;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
@@ -11,7 +10,7 @@ public class SpringWebAndBlogApplication {
 
     public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(SpringWebAndBlogApplication.class, args);
-        SeleniumTesting.proklikaniWebu();
+       // SeleniumTesting.proklikaniWebu();
      /*   WebDriver driver = new ChromeDriver();
         driver.navigate().to("http://localhost:8080/account/login");
         Thread.sleep(1200);  // časová prodleva

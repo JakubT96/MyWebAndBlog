@@ -16,30 +16,33 @@ public class SeleniumTesting {
             throw new RuntimeException(e);
         }
         driver.findElement(By.className("articles")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("skills")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("reference")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("kontakt-tlacitko")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("register")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("login")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.id("email")).sendKeys("JakubT96@seznam.cz");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.id("password")).sendKeys("Podhorkou234", Keys.RETURN);
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("clanky-tlacitko")).click();
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.id("title")).sendKeys("Zkouška Selenium test");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.id("description")).sendKeys("Vyzkouším Selenium Web driver");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.id("content")).sendKeys("Vyzkouším Selenium Web driver a pokusím se" +
                 " přidat jako nový článek. Musel jsem vypnout TinyMCE");
-        Thread.sleep(1000);
+        Thread.sleep(500);
         driver.findElement(By.className("clanky-tlacitko")).click();
+        Thread.sleep(500);
+        //driver.findElement(By.className("article/edit/6")).click();
+        driver.close();
     }
 }

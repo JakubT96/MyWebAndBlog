@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head th:fragment="head">
+<head th:fragment="head">   <!--Vytvoření layoutu abych nemusel opisovat kod do každé další stránky -->
 
   <meta charset="utf-8"/>
   <meta name="description" content="Zkouším SpringBoot."/>
-  <meta name="keywords" content="Portfolie"/>
+  <meta name="keywords" content="Portfolio"/>
   <meta name="author" content="Jakub Toman"/>
   <title>Moje první webová stránka</title>
 
   <link rel="stylesheet" th:href="@{/styles/lightbox.min.css}" type="text/css"/>
   <link rel="stylesheet" th:href="@{/styles/bootstrap.min.css}" type="text/css"/>
   <link rel="stylesheet" th:href="@{/styles/styles.css}" type="text/css"/>
-  <link rel="shortcut icon" th:href="@{/images/ikona.ico}"/>
 
   <script th:src="@{/scripts/lightbox-plus-jquery.min.js}"></script>
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/6.0.3/tinymce.min.js"></script> -->

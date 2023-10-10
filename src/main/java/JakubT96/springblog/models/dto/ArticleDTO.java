@@ -5,8 +5,6 @@ import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 public class ArticleDTO {
 
-    /* Zde později přidáme ještě jeden atribut */
-
     @NotBlank(message = "Vyplňte titulek")
     @NotNull(message = "Vyplňte titulek")
     @Size(max = 100, message = "Titulek je příliš dlouhý")
@@ -22,7 +20,6 @@ public class ArticleDTO {
 
     private long articleId;
 
-    //region: Getters and setters
     public String getTitle() {
         return title;
     }

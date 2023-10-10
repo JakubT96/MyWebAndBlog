@@ -23,7 +23,7 @@ public class ArticleServiceImpl implements ArticleService {
 
     @Override
     public void create(ArticleDTO article) {
-        ArticleEntity newArticle = articleMapper.toEntity(article); // <-- Tímto řádkem jsme nahradili velkou část obsahu této metody
+        ArticleEntity newArticle = articleMapper.toEntity(article);
 
         articleRepository.save(newArticle);
     }

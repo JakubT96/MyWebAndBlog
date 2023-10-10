@@ -4,44 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6aa3b97b-c521-49fc-8453-d3157a49c36e" name="Changes" comment="Aktuálně jde spustit.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/SeleniumTesting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/configuration/ApplicationSecurityConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/controllers/AccountController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/data/entities/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/data/repositories/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/dto/UserDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/exception/DuplicateEmailException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/exception/PasswordsDoNotEqualException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/._CSS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/._GITHUB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/._SQL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/CSS.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/GITHUB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/SQL.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/account/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/._pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/._pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="6aa3b97b-c521-49fc-8453-d3157a49c36e" name="Changes" comment="Aktuálně jde spustit. &#10;Pokus o Selenium Web driver testování.&#10;- proklikani zalozek v hlavicce&#10;- prihlaseni&#10;- vytvoreni noveho clanku">
+      <change beforePath="$PROJECT_DIR$/._pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/._springboot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/SpringWebAndBlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/SpringWebAndBlogApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/controllers/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/controllers/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/controllers/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/data/entities/ArticleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/data/entities/ArticleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/SeleniumTesting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/SeleniumTesting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/dto/ArticleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/dto/ArticleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/ArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JakubT96/springblog/models/services/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._springboot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/._springboot.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/ikona.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/java.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/java.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/springboot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/images/springboot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._CSS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._GITHUB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._SQL.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._html.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/._springboot.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/styles/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments/layout.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/articles/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/home/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/home/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/home/references.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/home/references.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/pages/home/skills.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/pages/home/skills.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +47,25 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="“Jakub &lt;jakubt96seznam.cz&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2TkoaMwckug9YY2H6G5rcVb6VU0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -77,20 +74,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Volumes/NOVÝ SVAZEK/MyWebAndBlog&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Volumes/Volný disk/Java/MyWebAndBlog",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  },
+  "keyToStringList": {
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="JakubT96" />
@@ -101,6 +105,21 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="JakubT96.springblog.data.entities" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="MyWebAndBlog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="MyWebAndBlog" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691952417589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Aktuálně jde spustit. &#10;Pokus o Selenium Web driver testování.&#10;- proklikani zalozek v hlavicce&#10;- prihlaseni&#10;- vytvoreni noveho clanku">
+      <option name="closed" value="true" />
+      <created>1693084117974</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693084117974</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Aktuálně jde spustit.">
+      <option name="closed" value="true" />
+      <created>1696930762676</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696930762677</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +186,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Aktuálně jde spustit. &#10;Pokus o Selenium Web driver testování.&#10;- proklikani zalozek v hlavicce&#10;- prihlaseni&#10;- vytvoreni noveho clanku" />
     <MESSAGE value="Aktuálně jde spustit." />
     <option name="LAST_COMMIT_MESSAGE" value="Aktuálně jde spustit." />
   </component>
